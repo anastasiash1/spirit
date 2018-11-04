@@ -29,8 +29,20 @@ blockquote {
     margin-inline-start: 0;
 }
 /*reset end*/
-p, h1, h2, h3, a, span, li{
+.font-white {
     color: #ffffff;
+}
+.font-black {
+    color: #222222;
+}
+.font-bold {
+    font-weight: 600;
+}
+.bg-black {
+    background-color: #050505;
+}
+.bg-white {
+    background-color: #ffffff;
 }
 #wrapper {
     display: block;
@@ -133,9 +145,6 @@ p, h1, h2, h3, a, span, li{
     padding-top: 100px;
     width: 100%;
 }
-.bg_white {
-    background-color: #ffffff;
-}
 .about .layout {
     background: url('images/bg-mac.png') no-repeat;
     height: 610px;
@@ -237,8 +246,9 @@ p, h1, h2, h3, a, span, li{
     background-color: #111111;
     height: 726px;
 }
-.bg_black {
-    background-color: #050505;
+.h2-font-style {
+    font-size: 44px;
+    font-weight: 400;
 }
 .services {
     height: 738px;
