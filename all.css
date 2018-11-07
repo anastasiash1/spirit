@@ -318,6 +318,10 @@ blockquote {
 .clients {
     height: 516px;
 }
+.clients__logo {
+	background-image: url("images/brands-logo.png")
+	background-repeat: no-repeat;
+}
 .work {
     height: 1336px;
 }
