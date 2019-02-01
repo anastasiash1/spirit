@@ -26,9 +26,6 @@ img {
 ul, nav {
     list-style: none;
 }
-main {
-    display: block;
-}
 #wrapper {
     display: block;
     font-family: 'Open Sans', sans-serif;
@@ -43,4 +40,10 @@ main {
     max-width: 1142px;
     position: relative;
     width: 76vw;
+}
+#main {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
 }

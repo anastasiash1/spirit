@@ -22,16 +22,9 @@
 
 
 
-.start .layout {
+.start__layout {
     height: 100vh;
     padding-top: 202px;
-}
-
-#main {
-    display: block;
-    overflow: hidden;
-    position: relative;
-    width: 100%;
 }
 h1, h2, h3, .header__logo, .work__filter, .testimonials__quote, .contact-form__send-button, .footer__copyright {
     text-transform: uppercase;
