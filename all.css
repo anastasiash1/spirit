@@ -78,8 +78,7 @@ h1, h2, h3, .header__logo, .work__filter, .testimonials__quote, .contact-form__s
 }
 .start {
     background-color: #0a0a0a;
-    height: 100vh;
-    padding-bottom: 90px;
+	height: calc(100vh - 79px);
     text-align: center;
 }
 .start__welcome {
