@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="859f280c-19c2-49ab-9176-bde01c795941" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/all.css" beforeDir="false" afterPath="$PROJECT_DIR$/all.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/start.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/start.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -43,8 +42,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/start.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="612">
-                  <caret line="36" column="32" lean-forward="true" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
+                <state relative-caret-position="34">
+                  <caret line="2" column="31" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="31" />
                 </state>
               </provider>
             </entry>
@@ -203,12 +202,12 @@
       <workItem from="1548663145701" duration="8494000" />
       <workItem from="1548791379012" duration="1156000" />
       <workItem from="1548919428862" duration="8557000" />
-      <workItem from="1549017762188" duration="7035000" />
+      <workItem from="1549017762188" duration="7429000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73840000" />
+    <option name="totallyTimeSpent" value="74234000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -307,17 +306,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/header.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="40" column="31" lean-forward="true" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/header.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -330,8 +329,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/start.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="32" lean-forward="true" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
+        <state relative-caret-position="34">
+          <caret line="2" column="31" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="31" />
         </state>
       </provider>
     </entry>
