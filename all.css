@@ -30,7 +30,7 @@ h1, h2, h3, .header__logo, .work__filter, .testimonials__quote, .contact-form__s
 		display: block;
 		color: #ffffff;
 		font-size: 25px;
-		margin-top: -4px;
+		line-height: 24px;
 	}
 	.header__menu.responsive {
 		position: relative;
@@ -46,9 +46,6 @@ h1, h2, h3, .header__logo, .work__filter, .testimonials__quote, .contact-form__s
 		text-align: left;
 	}
 	/*responsive menu end*/
-	.start {
-		padding: 50px 0 50px 0;
-	}
 	.start__welcome {
 		font-size: 25px;
 	}
