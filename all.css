@@ -1,6 +1,7 @@
 @import "./css/global.css";
-@import "./css/header.css";
 @import "./css/start.css";
+@import "./css/header.css";
+
 
 .font-white {
     color: #ffffff;
@@ -18,7 +19,7 @@
     background-color: #ffffff;
 }
 
-h1, h2, h3, .header__logo, .work__filter, .testimonials__quote, .contact-form__send-button, .footer__copyright {
+h2, h3, .work__filter, .testimonials__quote, .contact-form__send-button, .footer__copyright {
     text-transform: uppercase;
 }
 @media screen and (max-width: 978px) {

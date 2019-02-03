@@ -1,12 +1,7 @@
-#header {
-    background-color: #0a0a0a;
-    padding-top: 3.125rem;
-    width: 100%;
-}
 .header__layout {
     display: flex;
     justify-content: space-between;
-    /*height: 38px;*/
+    padding-top: 3.125rem;
 }
 .logo {
     cursor: pointer;
