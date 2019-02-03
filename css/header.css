@@ -19,7 +19,7 @@
 }
 .header__menu {
     display: inline-block;
-    padding-top: 2px;
+    padding-top: 0.125rem;
 }
 .header__menu-item {
     color: #ffffff;
