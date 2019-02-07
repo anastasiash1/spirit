@@ -30,3 +30,29 @@
 .header__menu-icon {
     display: none;
 }
+@media screen and (max-width: 978px) {
+    /*responsive menu start*/
+    .header__menu-item {
+        display: none;
+    }
+    .header__menu-icon {
+        display: block;
+        color: #ffffff;
+        font-size: 25px;
+        line-height: 24px;
+    }
+    .header__menu.responsive {
+        position: relative;
+    }
+    .header__menu.responsive a.header__menu-icon {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .header__menu.responsive .header__menu-item {
+        display: block;
+        float: none;
+        text-align: left;
+    }
+    /*responsive menu end*/
+}

@@ -42,3 +42,11 @@
     margin-bottom: 11.3%;
     width: 3.125rem;
 }
+@media screen and (max-width: 978px) {
+    .start__welcome {
+        font-size: 25px;
+    }
+    .start__intro {
+        font-size: 14px;
+    }
+}
