@@ -20,7 +20,7 @@
     background-color: #ffffff;
 }
 
-h2, h3, .work__filter, .testimonials__quote, .contact-form__send-button, .footer__copyright {
+.work__filter, .testimonials__quote, .contact-form__send-button, .footer__copyright {
     text-transform: uppercase;
 }
 .team {
