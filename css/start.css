@@ -44,9 +44,9 @@
 }
 @media screen and (max-width: 978px) {
     .start__welcome {
-        font-size: 25px;
+        font-size: 1.563rem;
     }
     .start__intro {
-        font-size: 14px;
+        font-size: 0.875rem;
     }
 }
