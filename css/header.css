@@ -38,8 +38,8 @@
     .header__menu-icon {
         display: block;
         color: #ffffff;
-        font-size: 25px;
-        line-height: 24px;
+        font-size: 1.563rem;
+        line-height: 0.960em;
     }
     .header__menu.responsive {
         position: relative;
