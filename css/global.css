@@ -1,6 +1,5 @@
 *{
     font: inherit;
-    /*font-size: 100%;*/
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -47,3 +46,17 @@ ul, nav {
     position: relative;
     width: 100%;
 }
+.deco-stripe {
+    height: 0.188rem;
+    margin: 0 auto;
+}
+.deco-stripe_style_wide {
+    background-color: #fcac45;
+    margin-bottom: 0.625rem;
+    width: 6rem;
+}
+.deco-stripe_style_short {
+    background-color: #b37b33;
+    width: 4.125rem;
+}
+

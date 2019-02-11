@@ -2,6 +2,7 @@
 @import "./css/header.css";
 @import "./css/start.css";
 @import "./css/about.css";
+@import "./css/team.css";
 
 
 .font-white {
@@ -23,34 +24,22 @@
 .work__filter, .testimonials__quote, .contact-form__send-button, .footer__copyright {
     text-transform: uppercase;
 }
-.team {
-    height: 726px;
-}
-.h2-font-style {
-    font-size: 44px;
-    font-weight: 400;
-}
-.deco-line_wide{
-	background-color: #fcac45;
-	height: 3px;
-	width: 96px;
-}
-.deco-line_short {
-	background-color: #fcac45;
-	height: 3px;
-	width: 66px;
-}
-.team__name {
-	font-size: 20px;
-	font-weight: 700;
-}
-.team__title, .team__description {
-	line-height: 24px;
-}
-.team__title, .team__description, .services__description {
+/*.h2-font-style {*/
+    /*font-size: 44px;*/
+    /*font-weight: 400;*/
+/*}*/
+
+
+.services__description {
 	font-size: 14px;
 	font-weight: 400;
 }
+
+
+
+
+
+
 .slider {
 	display: inline-block;
 }
@@ -59,6 +48,8 @@
 	height: 8px;
 	width: 8px;
 }
+
+
 .services {
     height: 738px;
 }
