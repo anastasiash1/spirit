@@ -17,6 +17,7 @@
     display: flex;
     font-size: 0.875rem;
     font-weight: 400;
+    justify-content: space-between;
     line-height: 24px;
     margin-bottom: 4.625rem;
 }
@@ -37,7 +38,6 @@
 }
 .team__bio {
     line-height: 1.714em;
-    margin-right: 1.143em;
 }
 .team .team__cards li:last-child p:last-child {
     margin-right: 0;
@@ -54,4 +54,13 @@
     display: block;
     height: 0.5rem;
     width: 0.5rem;
+}
+.team__cards-tile {
+    width: 14.375rem;
+}
+@media only screen and (max-width: 1024px) {
+    .team__cards {
+        align-items: center;
+        flex-direction: column;
+    }
 }

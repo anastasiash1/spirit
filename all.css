@@ -3,6 +3,7 @@
 @import "./css/start.css";
 @import "./css/about.css";
 @import "./css/team.css";
+@import "./css/services.css";
 
 
 .font-white {
@@ -30,55 +31,15 @@
 /*}*/
 
 
-.services__description {
-	font-size: 14px;
-	font-weight: 400;
-}
 
 
-
-
-
-
-
-
-
-.services {
-    height: 738px;
-}
-.services__intro, .work__intro, .contact-us__intro {
+.work__intro, .contact-us__intro {
 	color: #6c6c6c;
 	font-size: 16px;
 	font-style: italic;
 	line-height: 24px;
 }
-.services__icon-placeholder {
-	background-position: center;
-	background-repeat: no-repeat;
-	border: solid #fcac45 4px;
-	border-radius: 50%;
-	height: 126px;
-	width: 126px;
-}
-.web-design-icon {
-	background-image: url("images/icon-monitor.png");
-}
-.mobile-apps-icon {
-	background-image: url("images/icon-phone.png");
-}
-.photography-icon {
-	background-image: url("images/icon-camera.png");
-}
-.marketing-icon {
-	background-image: url("images/icon-speaker.png");
-}
-.services__name {
-	font-size: 25px;
-	font-weight: 500;
-}
-.services__description {
-	line-height: 21px;
-}
+
 .clients {
     height: 516px;
 }
