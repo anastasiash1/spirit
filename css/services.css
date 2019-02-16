@@ -1,6 +1,11 @@
+.services{
+    padding-top: 6.25rem;
+    text-align: center;
+}
 .services__heading {
     font-size: 2.75rem;
     font-weight: 400;
+    padding-bottom: 0.682em;
     text-transform: uppercase;
 }
 .services__heading_text_accent {
@@ -11,6 +16,14 @@
     font-size: 1rem;
     font-style: italic;
     line-height: 1.5em;
+    padding-bottom: 6.625em;
+    padding-top: 2.625em;
+}
+.services__cards {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 3.125rem;
+    padding-bottom: 6.25rem;
 }
 .services__icon-placeholder {
     background-position: center;
@@ -18,6 +31,8 @@
     border: solid #fcac45 0.25rem;
     border-radius: 50%;
     height: 7.875rem;
+    margin: auto;
+    margin-bottom: 1.875rem;
     width: 7.875rem;
 }
 .web-design-icon {
@@ -35,6 +50,8 @@
 .services__name {
     font-size: 1.563rem;
     font-weight: 500;
+    margin-bottom: 0.8em;
+    text-transform: uppercase;
 }
 .services__description {
     font-size: 0.875rem;

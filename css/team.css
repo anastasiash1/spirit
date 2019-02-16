@@ -55,7 +55,7 @@
     height: 0.5rem;
     width: 0.5rem;
 }
-.team__cards-tile {
+.team__card {
     width: 14.375rem;
 }
 @media only screen and (max-width: 1024px) {
