@@ -1,3 +1,4 @@
+@import "../css/slider-bullets.css";
 .team {
     background-color: #050505;
     color: #ffffff;
@@ -44,16 +45,6 @@
 }
 .team__slider {
     padding-bottom: 5.25rem;
-}
-.slider {
-    display: inline-block;
-    text-align: center;
-}
-.slider__bullet {
-    background-color: #ffffff;
-    display: block;
-    height: 0.5rem;
-    width: 0.5rem;
 }
 .team__card {
     width: 14.375rem;

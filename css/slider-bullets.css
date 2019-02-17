@@ -1,0 +1,10 @@
+.slider {
+    display: inline-block;
+    text-align: center;
+}
+.slider__bullet {
+    background-color: #ffffff;
+    display: block;
+    height: 0.5rem;
+    width: 0.5rem;
+}
