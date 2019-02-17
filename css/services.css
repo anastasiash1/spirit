@@ -25,7 +25,6 @@
     /*grid-column-gap: 3.125rem;*/
     /*padding-bottom: 6.25rem;*/
 /*}*/
-/*TODO: responsiveness with grid*/
 .services__cards {
     display: flex;
     flex-wrap: wrap;
@@ -35,7 +34,6 @@
 .services__card {
     width: 15.25rem
 }
-/*TODO: For responsiveness, add justify-content: center + add margins with :last-child*/
 .services__icon-placeholder {
     background-position: center;
     background-repeat: no-repeat;
