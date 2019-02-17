@@ -19,12 +19,23 @@
     padding-bottom: 6.625em;
     padding-top: 2.625em;
 }
+/*.services__cards {*/
+    /*display: grid;*/
+    /*grid-template-columns: auto auto auto auto;*/
+    /*grid-column-gap: 3.125rem;*/
+    /*padding-bottom: 6.25rem;*/
+/*}*/
+/*TODO: responsiveness with grid*/
 .services__cards {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-column-gap: 3.125rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     padding-bottom: 6.25rem;
 }
+.services__card {
+    width: 15.25rem
+}
+/*TODO: For responsiveness, add justify-content: center + add margins with :last-child*/
 .services__icon-placeholder {
     background-position: center;
     background-repeat: no-repeat;
