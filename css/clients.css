@@ -18,12 +18,12 @@
 .clients__logos {
     display: flex;
     justify-content: space-around;
-    padding-top: 6rem;
+    margin-top: 6rem;
     padding-bottom: 6.25rem;
     flex-wrap: wrap;
 }
 .clients__logos-img {
-    padding-right: 1.875rem;
+    margin-right: 1.875rem;
     padding-top: 1.25rem;
 }
 .clients__logos img:last-child {

@@ -5,7 +5,7 @@
 .services__heading {
     font-size: 2.75rem;
     font-weight: 400;
-    padding-bottom: 0.682em;
+    margin-bottom: 0.682em;
     text-transform: uppercase;
 }
 .services__heading_text_accent {
@@ -16,8 +16,8 @@
     font-size: 1rem;
     font-style: italic;
     line-height: 1.5em;
-    padding-bottom: 6.625em;
-    padding-top: 5.625em;
+    margin-bottom: 6.625em;
+    margin-top: 5.625em;
 }
 /*.services__cards {*/
     /*display: grid;*/
@@ -29,7 +29,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding-bottom: 6.25rem;
+    margin-bottom: 6.25rem;
 }
 .services__card {
     width: 15.25rem;

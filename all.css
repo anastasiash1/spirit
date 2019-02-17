@@ -5,24 +5,14 @@
 @import "./css/team.css";
 @import "./css/services.css";
 @import "./css/clients.css";
+@import "./css/work.css";
 
-
-.font-white {
-    color: #ffffff;
-}
-.font-black {
-    color: #222222;
-}
 .font-bold {
     font-weight: 600;
 }
 .bg-black {
     background-color: #050505;
 }
-.bg-white {
-    background-color: #ffffff;
-}
-
 .work__filter, .testimonials__quote, .contact-form__send-button, .footer__copyright {
     text-transform: uppercase;
 }
@@ -30,7 +20,7 @@
     /*font-size: 44px;*/
     /*font-weight: 400;*/
 /*}*/
-.work__intro, .contact-us__intro {
+.contact-us__intro {
 	color: #6c6c6c;
 	font-size: 16px;
 	font-style: italic;

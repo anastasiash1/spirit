@@ -2,12 +2,12 @@
 .team {
     background-color: #050505;
     color: #ffffff;
+    padding-top: 6.25rem;
     text-align: center;
 }
 .team__heading {
     font-size: 2.75rem;
     font-weight: 400;
-    padding-top: 2.273em;
     text-transform: uppercase;
     margin-bottom: 0.682em;
 }
