@@ -1,10 +1,10 @@
 .work {
+    font-weight: 400;
     padding-top: 6.25rem;
     text-align: center;
 }
 .work__heading {
     font-size: 2.75rem;
-    font-weight: 400;
     padding-bottom: 0.682em;
     text-transform: uppercase;
 }
@@ -18,4 +18,21 @@
     line-height: 1.5em;
     margin-bottom: 7.25em;
     margin-top: 2.625em;
+}
+.work__filter {
+    font-size: 1.125rem;
+}
+.work__filter-items {
+    color: #6c6c6c;
+    font-size: 1.125rem;
+    line-height: 1.333em;
+}
+.work__tiles-title {
+    color: #ffffff;
+    font-size: 1.25rem;
+    line-height: 1.2em;
+}
+.work__tiles-description {
+    color: #b2b2b2;
+    font-size: 0.875rem;
 }

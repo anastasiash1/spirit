@@ -7,7 +7,7 @@
 }
 .about__left-image {
     margin-left: 2.25rem;
-    min-width: 100%;
+    max-width: 100%;
 }
 @media only screen and (max-width: 978px) {
     .about__layout {

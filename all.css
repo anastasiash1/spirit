@@ -6,6 +6,7 @@
 @import "./css/services.css";
 @import "./css/clients.css";
 @import "./css/work.css";
+@import "./css/testimonials.css";
 
 .font-bold {
     font-weight: 600;
@@ -24,37 +25,6 @@
 	color: #6c6c6c;
 	font-size: 16px;
 	font-style: italic;
-	line-height: 24px;
-}
-.work__filter {
-	font-size: 18px;
-	font-weight: 400;
-}
-.work__filter-items {
-	color: #6c6c6c;
-	font-size: 18px;
-	font-weight: 400;
-	line-height: 24px;
-}
-.work__tiles-title {
-	font-size: 20px;
-	font-weight: 400;
-	line-height: 24px;
-}
-.work__tiles-description {
-	color: #b2b2b2;
-	font-size: 14px
-}
-.testimonials__quote {
-	color: #e7e7e7;
-	font-size: 18px;
-	font-weight: 400;
-	line-height: 24px;
-}
-.testimonials__name {
-	color: #b2b2b2;
-	font-size: 18px;
-	font-weight: 300;
 	line-height: 24px;
 }
 .contact-form__label {

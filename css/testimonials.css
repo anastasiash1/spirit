@@ -1,0 +1,34 @@
+@import "../css/slider-bullets.css";
+
+.testimonials {
+    background-color: #050505;
+    color: #ffffff;
+    padding-bottom: 6.25rem;
+    padding-top: 6.25rem;
+    text-align: center;
+}
+.testimonials__heading {
+    font-size: 2.75rem;
+    font-weight: 400;
+    padding-bottom: 1.875rem;
+    text-transform: uppercase;
+}
+.testimonials__heading_text_accent {
+    font-weight: 600;
+}
+.testimonials__quote {
+    color: #e7e7e7;
+    font-size: 1.125rem;
+    font-weight: 400;
+    margin-bottom: 2.778em;
+    margin-top: 5.556em;
+}
+.testimonials__name {
+    color: #b2b2b2;
+    font-size: 1.125rem;
+    font-weight: 300;
+    margin-bottom: 3.556em;
+}
+.testimonials__name_text_accent {
+    font-weight: 400;
+}
