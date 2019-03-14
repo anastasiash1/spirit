@@ -176,100 +176,114 @@
 					<div class="deco-stripe deco-stripe_style_short deco-stripe_style_short-on-white"></div>
 					<p class="work__intro">Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
 					<div class="work__filter">
-						<p class="work__filter-title">FILTER BY TYPE</p>
-						<div class="work__filter-items">
-							<a href="">All</a><span>|</span>
-							<a href="">Web design</a><span>|</span>
-							<a href="">Mobile design</a><span>|</span>
-							<a href="">Photograpy</a><span>|</span>
+						<p>FILTER BY TYPE</p>
+						<div>
+							<button class="work__filter-btn work__filter-btn_active" onclick="filterSelection('work__filter-all')">All</button><span>|</span>
+							<button class="work__filter-btn" onclick="filterSelection('work__filter-web')">Web design</button><span>|</span>
+							<button class="work__filter-btn" onclick="filterSelection('work__filter-mobile')">Mobile design</button><span>|</span>
+							<button class="work__filter-btn" onclick="filterSelection('work__filter-photo')">Photograpy</button><span>|</span>
 						</div>
 					</div>
-					<ul class="work__tiles">
-						<li class="line1">
-							<div>
-								<h3 class="work__tiles-title">Trend and fashion</h3>
-								<h4 class="work__tiles-description">Website design</h4>
-								<span>+</span>
+					<div class="work__tiles">
+						<div class="work__tile-holder work__filter-web">
+							<img class="work__tile-image" src="images/bg-mystery-photo.png" alt="">
+							<div class="work__tile-overlay">
+								<h3 class="work__tile-title">Trend and fashion</h3>
+								<h4 class="work__tile-description">Website design</h4>
+								<span class="work__tile-expand">+</span>
 							</div>
-						</li>
-						<li>
-							<div>
-								<h3></h3>
-								<h4></h4>
-								<span></span>
+						</div>
+						<div class="work__tile-holder work__filter-web">
+							<img class="work__tile-image" src="images/bg-mystery-photo.png" alt="">
+							<div class="work__tile-overlay">
+								<h3 class="work__tile-title">Trend and fashion</h3>
+								<h4 class="work__tile-description">Website design</h4>
+								<span class="work__tile-expand">+</span>
 							</div>
-						</li>
-						<li>
-							<div>
-								<h3></h3>
-								<h4></h4>
-								<span></span>
+						</div>
+						<div class="work__tile-holder work__filter-web">
+							<img class="work__tile-image" src="images/bg-mystery-photo.png" alt="">
+							<div class="work__tile-overlay">
+								<h3 class="work__tile-title">Trend and fashion</h3>
+								<h4 class="work__tile-description">Website design</h4>
+								<span class="work__tile-expand">+</span>
 							</div>
-						</li>
-						<li>
-							<div>
-								<h3></h3>
-								<h4></h4>
-								<span></span>
+						</div>
+						<div class="work__tile-holder work__filter-web">
+							<img class="work__tile-image" src="images/bg-mystery-photo.png" alt="">
+							<div class="work__tile-overlay">
+								<h3 class="work__tile-title">Trend and fashion</h3>
+								<h4 class="work__tile-description">Website design</h4>
+								<span class="work__tile-expand">+</span>
 							</div>
-						</li>
-						<li>
-							<div>
-								<h3></h3>
-								<h4></h4>
-								<span></span>
+						</div>
+
+						<div class="work__tile-holder work__filter-mobile">
+							<img class="work__tile-image" src="images/bg-unlimited-photo.png" alt="">
+							<div class="work__tile-overlay">
+								<h3 class="work__tile-title">Trend and fashion</h3>
+								<h4 class="work__tile-description">Mobile design</h4>
+								<span class="work__tile-expand">+</span>
 							</div>
-						</li>
-						<li>
-							<div>
-								<h3></h3>
-								<h4></h4>
-								<span></span>
+						</div>
+						<div class="work__tile-holder work__filter-mobile">
+							<img class="work__tile-image" src="images/bg-unlimited-photo.png" alt="">
+							<div class="work__tile-overlay">
+								<h3 class="work__tile-title">Trend and fashion</h3>
+								<h4 class="work__tile-description">Mobile design</h4>
+								<span class="work__tile-expand">+</span>
 							</div>
-						</li>
-						<li>
-							<div>
-								<h3></h3>
-								<h4></h4>
-								<span></span>
+						</div>
+						<div class="work__tile-holder work__filter-mobile">
+							<img class="work__tile-image" src="images/bg-unlimited-photo.png" alt="">
+							<div class="work__tile-overlay">
+								<h3 class="work__tile-title">Trend and fashion</h3>
+								<h4 class="work__tile-description">Mobile design</h4>
+								<span class="work__tile-expand">+</span>
 							</div>
-						</li>
-						<li>
-							<div>
-								<h3></h3>
-								<h4></h4>
-								<span></span>
+						</div>
+						<div class="work__tile-holder work__filter-mobile">
+							<img class="work__tile-image" src="images/bg-unlimited-photo.png" alt="">
+							<div class="work__tile-overlay">
+								<h3 class="work__tile-title">Trend and fashion</h3>
+								<h4 class="work__tile-description">Mobile design</h4>
+								<span class="work__tile-expand">+</span>
 							</div>
-						</li>
-						<li>
-							<div>
-								<h3></h3>
-								<h4></h4>
-								<span></span>
+						</div>
+
+						<div class="work__tile-holder work__filter-photo">
+							<img class="work__tile-image" src="images/bg-phone-photo.png" alt="">
+							<div class="work__tile-overlay">
+								<h3 class="work__tile-title">Trend and fashion</h3>
+								<h4 class="work__tile-description">Photography</h4>
+								<span class="work__tile-expand">+</span>
 							</div>
-						</li>
-						<li>
-							<div>
-								<h3></h3>
-								<h4></h4>
-								<span></span>
+						</div>
+						<div class="work__tile-holder work__filter-photo">
+							<img class="work__tile-image" src="images/bg-phone-photo.png" alt="">
+							<div class="work__tile-overlay">
+								<h3 class="work__tile-title">Trend and fashion</h3>
+								<h4 class="work__tile-description">Photography</h4>
+								<span class="work__tile-expand">+</span>
 							</div>
-						</li>
-						<li>
-							<div>
-								<h3></h3>
-								<h4></h4>
-								<span></span>
+						</div>
+						<div class="work__tile-holder work__filter-photo">
+							<img class="work__tile-image" src="images/bg-phone-photo.png" alt="">
+							<div class="work__tile-overlay">
+								<h3 class="work__tile-title">Trend and fashion</h3>
+								<h4 class="work__tile-description">Photography</h4>
+								<span class="work__tile-expand">+</span>
 							</div>
-						</li>
-						<li>
-							<div>
-								<h3></h3>
-								<h4></h4>
-								<span></span>
+						</div>
+						<div class="work__tile-holder work__filter-photo">
+							<img class="work__tile-image" src="images/bg-phone-photo.png" alt="">
+							<div class="work__tile-overlay">
+								<h3 class="work__tile-title">Trend and fashion</h3>
+								<h4 class="work__tile-description">Photography</h4>
+								<span class="work__tile-expand">+</span>
 							</div>
-						</li>
-					</ul>
+						</div>
+					</div>
 				</div>
 			</section>
                 <section class="testimonials">
