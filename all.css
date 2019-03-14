@@ -14,7 +14,7 @@
 .bg-black {
     background-color: #050505;
 }
-.work__filter, .testimonials__quote, .contact-form__send-button, .footer__copyright {
+.contact-form__send-button, .footer__copyright {
     text-transform: uppercase;
 }
 /*.h2-font-style {*/

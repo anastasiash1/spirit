@@ -1,5 +1,6 @@
 .work {
     font-weight: 400;
+    padding-bottom: 6.25rem;
     padding-top: 6.25rem;
     text-align: center;
 }
@@ -20,7 +21,12 @@
     margin-top: 2.625em;
 }
 .work__filter {
+    display: flex;
     font-size: 1.125rem;
+    justify-content: space-between;
+}
+.work__filter-title {
+    font-weight: :;
 }
 .work__filter-items {
     color: #6c6c6c;
