@@ -20,7 +20,7 @@
     margin-bottom: 7.25em;
     margin-top: 2.625em;
 }
-.work__filter {
+#work__filter {
     display: flex;
     font-size: 1.125rem;
     justify-content: space-between;
